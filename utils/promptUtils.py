@@ -30,6 +30,19 @@ def prompt_for_ip():
     except Exception as e:
         logging.error(f"An unexpected error occurred while entering IP address: {e}")
 
+def prompt_for_domain():
+    """
+    Prompt the user to enter a domain.
+
+    Returns:
+        str: The Domain entered by the user.
+    """
+    try:
+        domain = input("Please enter the domain name: ")
+        return domain
+    except Exception as e:
+        logging.error(f"An unexpected error occurred while entering domain name: {e}")
+
 def parse_arguments():
     """
     Parse command-line arguments.

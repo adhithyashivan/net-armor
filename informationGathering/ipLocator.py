@@ -1,7 +1,7 @@
 import requests
 import logging
 from colorama import Fore, init
-from common.constants import ERROR_FETCHING_IP, FAILED_IP_RETRIEVE, UNEXPECTED_IP_ERROR, IP_DETAILS_SUCCESS
+from common.constants import ERROR_FETCHING_IP, FAILED_IP_RETRIEVE, UNEXPECTED_ERROR, IP_DETAILS_SUCCESS
 
 init(autoreset=True)
 
@@ -35,7 +35,7 @@ class IPLocator:
             logging.error(f"{Fore.RED}" + ERROR_FETCHING_IP.format(error=e))
             return None
         except Exception as e:
-            logging.error(f"{Fore.RED}" + UNEXPECTED_IP_ERROR.format(error=e))
+            logging.error(f"{Fore.RED}" + UNEXPECTED_ERROR.format(error=e))
             return None
 
     def display_ip_info(self):
@@ -53,7 +53,7 @@ class IPLocator:
             else:
                 logging.error(f"{Fore.RED}" + FAILED_IP_RETRIEVE)
         except Exception as e:
-            logging.error(f"{Fore.RED}" + UNEXPECTED_IP_ERROR.format(error=e))
+            logging.error(f"{Fore.RED}" + UNEXPECTED_ERROR.format(error=e))
 
 def run_ip_locator(ip_address):
     """

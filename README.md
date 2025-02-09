@@ -69,6 +69,38 @@ Query: 8.8.8.8
 ...
 ```
 
+2. **Run the `netArmor.py` script:**
+
+```bash
+python3 netArmor.py
+```
+
+### Tools
+
+#### 2. Sub Domain Extractor
+
+The Sub Domain Extractor tool fetches and displays information about sub domains from the provided domain using crt.sh
+
+### Example
+
+```bash
+python3 netArmor.py
+```
+
+Output:
+
+```
+2025-02-09 14:53:46,287 - INFO - Welcome to NET ARMOR! Please select a tool:
+2025-02-09 14:53:46,288 - INFO - 1. IP Locator
+2025-02-09 14:53:46,289 - INFO - 2. Sub Domain Extractor
+Enter the number of your choice: 2
+Please enter the domain name: example.com
+2025-02-09 14:53:53,528 - INFO - Sub DOmains:
+example.com
+*.example.com
+...
+```
+
 ### Extending the Toolbox
 
 To add a new tool:
