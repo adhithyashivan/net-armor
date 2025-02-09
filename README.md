@@ -75,8 +75,6 @@ Query: 8.8.8.8
 python3 netArmor.py
 ```
 
-### Tools
-
 #### 2. Sub Domain Extractor
 
 The Sub Domain Extractor tool fetches and displays information about sub domains from the provided domain using crt.sh
