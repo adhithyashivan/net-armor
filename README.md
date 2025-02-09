@@ -1,7 +1,7 @@
 
 # Net Armor
 
-[![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv3-red.svg)](https://raw.githubusercontent.com/yourusername/netarmor/main/LICENSE) [![LinkedIn](https://img.shields.io/badge/linkedin-@netarmor-blue.svg)](https://www.linkedin.com/in/adhithyashivan/)
+[![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv3-red.svg)](https://raw.githubusercontent.com/adhithyashivan/net-armor/refs/heads/main/LICENSE) [![LinkedIn](https://img.shields.io/badge/linkedin-@netarmor-blue.svg)](https://www.linkedin.com/in/adhithyashivan/)
 
 Net Armor is a unified web security toolkit that provides various utilities for cybersecurity professionals. Currently, it includes an IP Locator tool that fetches and displays information about a provided IP address. Net Armor is designed to be your go-to tool for comprehensive web security analysis and operations.
 
